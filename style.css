@@ -1,0 +1,17 @@
+html, body {
+	font-family: 'helvetica neue';
+	font-size: 2.5vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.photo {
+	background-image: url(./images/foto.png);
+	background-size: cover;
+	width: 20ex;
+	height: 20ex;
+}
+
+h4 {
+	border-bottom: 0.25vh solid gray;
+}
