@@ -1,13 +1,13 @@
-<!-- <picture>
-  <img src="https://disk.yandex.ru/i/dae0ftZLlgc1pQ" height="20" width="20">
-</picture> -->
+<img src="./foto.png" height="230" width="210">
+
+<!-- ![img](./foto.png) -->
 
 # Daria Bataeva
 ## Contacts
 * Phone number: +7 922 852 66 59
 * Email: 79228526659@yandex.com
-* GitHub accaunt: https://github.com/dbataeva
 * Discord: Daria Bataeva (@dbataeva)
+* GitHub accaunt: https://github.com/dbataeva
 * Location: Moscow, Russia
 
 ## About me
