@@ -1,0 +1,127 @@
+html,
+body {
+	box-sizing: border-box;
+
+	font: 16px/24px Arial, sans-serif;
+	color: rgba(13, 13, 13, 0.9);
+}
+
+a {
+	color: #400601;
+}
+
+#name {
+	display: flex;
+	flex-direction: row;
+
+	width: calc(100% - 190px);
+	margin: 1vh 10vw;
+	box-sizing: border-box;
+}
+
+main {
+	margin: 0 10vw;
+	box-sizing: border-box;
+}
+
+h1 {
+	margin-top: 73px;
+	box-sizing: border-box;
+	
+	font-size: 200%;
+}
+
+header ul {
+	position: relative;
+
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	margin: 0 10vw;
+	box-sizing: border-box;
+
+	justify-content: space-between;
+}
+
+nav {
+	position: relative;
+	top: 0;
+
+	width: 100%;
+	box-sizing: border-box;
+	
+	text-align: center;
+	text-transform: uppercase;
+
+	background-color: rgba(242, 198, 194, 0.3);
+	border-bottom: 1px solid rgba(10, 10, 10, 0.15);
+
+}
+
+nav li {
+	padding: 5px;
+	box-sizing: border-box;
+
+	font: 17px/25.5px Arial, sans-serif;
+
+	list-style-type: none;
+}
+
+.photo {
+	display: flex;
+	flex-basis: 250px;
+	flex-direction: column;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#introduction {
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h3 {
+	box-sizing: border-box;
+
+	border-bottom: 1.5px solid rgba(13, 13, 13, 0.5);
+}
+
+#code-example div {
+	padding: 1vh 1vw 1vh 1vw;
+	box-sizing: border-box;
+
+	font-size: 14px;
+	font-family: monospace;
+
+	background-color: rgba(10, 10, 10, 0.15);
+
+}
+
+footer {
+	box-sizing: border-box;
+
+	font: 12px/0 Arial, sans-serif;
+	text-align: center;
+
+	background-color: rgba(242, 198, 194, 0.3);
+	border-top: 1px solid rgba(10, 10, 10, 0.15);
+}
+
+@media (max-width: 646px) {
+	
+	#name {
+		flex-direction: column;
+		box-sizing: border-box;
+	}
+
+	h1 {
+		margin-top: 0;
+		box-sizing: border-box;
+
+		font-size: 200%;
+	}
+
+	header ul {
+		flex-wrap: wrap;
+	}
+}
