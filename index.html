@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="./style.css">
+		<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+		<title>CV Daria Bataeva</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="#contacts">contacts</a>
+					</li>
+					<li>
+						<a href="#about-me">about&nbsp;me</a>
+					</li>
+					<li>
+						<a href="#skills">skills</a>
+					</li>
+					<li>
+						<a href="#code-example">code&nbsp;example</a>
+					</li>
+					<li>
+						<a href="#experience">experience</a>
+					</li>
+					<li>
+						<a href="#education">education</a>
+					</li>
+					<li>
+						<a href="#languages">languages</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="name">
+				<div class="photo">
+					<img width="200" height="218" src="./images/photo.png" alt="portrait">
+				</div>
+				<div id="introduction">
+					<h1>Daria&nbsp;Bataeva</h1>
+					<h2>Front&#8209;end&nbsp;developer</h2>
+				</div>
+			</div>
+			</header>
+		<main>
+			<section id="contacts">
+				<h3>Contacts</h3>
+				<ul>
+					<li>Phone number: +7 922 852 66 59</li>
+					<li>Email: 79228526659@yandex.com</li>
+					<li>Discord: Daria Bataeva (@dbataeva)</li>
+					<li>GitHub account: 
+						<a href="https://github.com/dbataeva">dbataeva</a>
+					</li>
+					<li>Location: Moscow, Russia</li>
+				</ul>
+			</section>
+			<section>
+				<h3 id="about-me">About&nbsp;me</h3>
+				<p>I began my adventure in a programming word in 2020 in 21 programming school. For the first year I was learning C language, then C++ language.
+			</p>
+				<p>At last I decided to be a front-end developer and started studying JS <a href="https://learn.javascript.ru/">here</a>. Then I knew about <a href="https://rs.school">RS school</a> and I became a
+				student there. I studied JS stage 0 in summer 2022. Now I ‘m learning a <a href="https://rs.school/js/">JS course</a>.
+			</p>
+			</section>
+			<section id="skills">
+				<h3>Skills</h3>
+				<ul>
+					<li>React, TS, styled-components, jest, JS, Node, CSS, HTML5, JSON</li>
+					<li>Git, Unix, Bash, Browser DevTools, BitBucket, Jira, Confluence, Docusaurus, Storybook</li>
+					<li>OOP</li>
+					<li>HTTP</li>
+					<li>Docker, k8s, Nginx, Postman</li>
+				</ul>
+			</section>
+			<section id="code-example">
+				<h3>Code example</h3>
+				<div>
+					<p>
+						<code>
+							function rgb(r, g, b) {<br>
+							&nbsp;&nbsp;const rInTheRange = getNumberInTheRange(r);<br>
+							&nbsp;&nbsp;const gInTheRange = getNumberInTheRange(g);<br>
+							&nbsp;&nbsp;const bInTheRange = getNumberInTheRange(b);<br>
+							<br>
+							&nbsp;&nbsp;return changeToHex(rInTheRange) + changeToHex(gInTheRange) + changeToHex(bInTheRange);<br>
+							}<br>
+							<br>
+							function getNumberInTheRange(number) {<br>
+							&nbsp;&nbsp;if (number &lt; 0) {<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+							&nbsp;&nbsp;}<br>
+							<br>
+							&nbsp;&nbsp;if (number &gt; 255) {<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;return 255;<br>
+							&nbsp;&nbsp;}<br>
+							<br>
+							&nbsp;&nbsp;return number;<br>
+							}<br>
+							<br>
+							function changeToHex(number) {<br>
+							&nbsp;&nbsp;const hexNumber = number.toString(16).toUpperCase();<br>
+							<br>
+							&nbsp;&nbsp;if (hexNumber.length &lt; 2) {<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;return '0' + hexNumber;<br>
+							&nbsp;&nbsp;}<br>
+							<br>
+							&nbsp;&nbsp;return hexNumber;<br>
+							}<br>
+						</code>
+					</p>
+				</div>
+			</section>
+			<section id="experience">
+				<h3>Experience</h3>
+				<div>
+					<ul>
+						<li>Sber - Front-end / JavaScript Junior Software Engineer. July 2022 - present</li>
+					</ul>
+				</div>
+			</section>
+			<section id="education">
+				<h3>Education</h3>
+				<ul>
+					<li><a href="https://21-school.ru/">21 programming school</a>: October 2020 - present</li>
+					<li><a href="https://rs.school/js/">RS school</a>: March 2023 - present</li>
+					<li><a href="https://rs.school/js/">RS school</a>: June 2022 - August 2022</li>
+					<li>Orenburg State Medical University: 2009 - 2017</li>
+				</ul>
+			</section>
+			<section id="languages">
+				<h3>Languages</h3>
+				<ul>
+					<li>English - B1 (I continue study under a teacher)</li>
+					<li>Russian - native</li>
+				</ul><br>
+			</section>
+		</main>
+		<footer>
+			<p>GitHub: <a href="https://github.com/dbataeva">dbataeva</a></p>
+			<a href="https://rs.school/js/">
+				<img alt="rs school logo" src="https://rs.school/images/rs_school_js.svg" width="80" height="50">
+			</a>
+			<p>2023</p><br>
+		</footer>
+	</body>
+</html>
